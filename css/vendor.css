@@ -2065,6 +2065,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__volume-button > .mejs__volume-slider {
+   -webkit-backface-visibility: hidden;
    background: rgba(50, 50, 50, 0.7);
    border-radius: 0;
    bottom: 100%;
@@ -2122,6 +2123,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
    display: block;
    height: 36px;
    position: relative;
+   vertical-align: middle;
    width: 56px;
 }
 
@@ -2451,9 +2453,28 @@ ol.linenums {
 }
 
 /* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
 
+   /* */
+}
 
 /* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
 
+   /* */
+}
 
 /*# sourceMappingURL=vendor.css.map */

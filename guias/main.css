@@ -1894,7 +1894,7 @@ input::-moz-focus-inner {
 
 .pageheader-content {
     overflow: hidden;
-    padding: 75 75px;
+    padding: 0 75px;
     max-width: 1350px;
 }
 
@@ -1921,7 +1921,7 @@ input::-moz-focus-inner {
 }
 
 .header__logo img {
-    width: 320px;
+    width: 265px;
     height: 48px;
 }
 
@@ -1999,19 +1999,6 @@ input::-moz-focus-inner {
 
 .header__toggle-menu span::before {
     top: -8px;
-}
-
-#header2 {
-    background-color: #fff;
-    min-height: 174px;
-}
-
-#header2 a {
-    color: black;
-}
-
-#header2 a:hover {
-    color: rgb(145, 145, 145);
 }
 
 .header__toggle-menu span::after {
@@ -2184,15 +2171,6 @@ body.search-is-visible {
     .header {
         padding-top: 24px;
         padding-bottom: 24px;
-    }
-    #header2 a {
-        color: #656565;
-    }
-    #header2 a:hover {
-        color: #fff;
-    }
-    #header2 .header__toggle-menu {
-        background-color: rgba(54, 54, 54, 1);
     }
     .header__logo img {
         width: 225px;
@@ -2973,8 +2951,8 @@ html.no-csstransitions .featured {
 
 .s-content {
     background-color: #f2f2f2;
-    padding-top: 5 rem;
-    padding-bottom: 7.2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .s-content--no-padding-bottom {
