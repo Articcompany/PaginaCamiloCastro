@@ -547,16 +547,6 @@
 
     };
 
-    /* Stiky-top
-     * ------------------------------------------------------ */
-    $(window).on('scroll', function() {
-        if ($('.header').offset().top > 50) {
-            $('.header').addClass('header2');
-
-        } else {
-            $('.header').removeClass('header2');
-        }
-    });
 
     /* Initialize
      * ------------------------------------------------------ */
@@ -579,3 +569,12 @@
     })();
 
 })(jQuery);
+
+$(window).on('scroll', function(){
+    if($('.header').offset().top>50){
+        $('.header').addClass('header2');
+    
+    }else{
+        $('.header').removeClass('header2');
+    }
+});
