@@ -124,15 +124,15 @@
                 <div class="col-twelve tab-full">
 
                     <h3 class="add-bottom">Formulario de Contacto</h3>
-                    <form>
+                    <form action="sections/enviarformulario.php" method="post" id="contacto">
                         <div>
                             <label for="sampleInput">Correo Electrónico</label>
-                            <input class="full-width" type="email" placeholder="ejemplo@gmail.com" id="sampleInput">
+                            <input class="full-width" type="email" placeholder="ejemplo@gmail.com" id="email" required>
                         </div>
                         <div>
                             <label for="sampleRecipientInput">En que estas interesado</label>
                             <div class="cl-custom-select">
-                                <select class="full-width" id="sampleRecipientInput">
+                                <select class="full-width" id="opcion" required>
                                             <option value="Option 1">Música para cine y televisión</option>
                                             <option value="Option 2">Composición musical profesional</option>
                                             <option value="Option 3">Clases personalizadas</option>
@@ -140,8 +140,8 @@
                             </div>
                         </div>
 
-                        <label for="exampleMessage">Mesnsaje</label>
-                        <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" id="exampleMessage"></textarea>
+                        <label for="exampleMessage">Mensaje</label>
+                        <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" id="mensaje" required></textarea>
 
                         <input class="btn--primary full-width" type="submit" value="Enviar">
 
