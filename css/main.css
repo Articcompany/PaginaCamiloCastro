@@ -141,7 +141,6 @@ h6,
     color: #000000;
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -152,7 +151,7 @@ h3,
 .h3,
 h4,
 .h4 {
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 1.8rem;
 }
 
@@ -3155,8 +3154,8 @@ html.no-csstransitions .featured {
 
 .s-extra {
     background-color: #FFFFFF;
-    padding-top: 3 rem;
-    padding-bottom: 7 rem;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
     font-family: "metropolis-regular", sans-serif;
     font-size: 1.5rem;
     line-height: 1.8;
