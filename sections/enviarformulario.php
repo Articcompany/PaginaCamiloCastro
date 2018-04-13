@@ -6,7 +6,7 @@ $opc = $_POST["opcion"];
 $men = $_POST["mensaje"];
 
 //estructura del correo
-$destino = 'articcompanyud@gmail.com';//Correo al que llegará
+$destino = "articcompanyud@gmail.com";//Correo al que llegará
 $asunto = $opc;//asunto que aparecerá
 //$bodyemail = "Hola señor Camilo Castro estoy interesado en '$_POST["opcion"]', mi correo electrónico es '$_POST["email"]' y este es mi mensaje: '$_POST["mensaje"]'";//cuerpo del mensaje
 
