@@ -110,7 +110,6 @@
 
             <div class="col-six tab-full">
 
-<<<<<<< HEAD
                     <h3 class="add-bottom">Formulario de Contacto</h3>
                     <form action="sections/enviarformulario.php" method="post" id="contacto">
                         <div>
@@ -126,32 +125,11 @@
                                             <option value="Option 3">Clases personalizadas</option>
                                         </select>
                             </div>
-=======
-                <h3 class="add-bottom">Formulario de Contacto</h3>
-                <form action="sections/enviarformulario.php" method="post">
-                    <div>
-                        <label for="sampleInput">Correo Electrónico</label>
-                        <input class="full-width" type="email" placeholder="ejemplo@gmail.com" name="email" required>
-                    </div>
-                    <div>
-                        <label for="sampleRecipientInput">En que estas interesado</label>
-                        <div class="cl-custom-select">
-                            <select class="full-width" name="opcion" required>
-                                        <option value="Option 1">Música para cine y televisión</option>
-                                        <option value="Option 2">Composición musical profesional</option>
-                                        <option value="Option 3">Clases personalizadas</option>
-                                    </select>
->>>>>>> 26b2785ebb461ab3998108e54d50eb46dda70a93
-                        </div>
+            </div>
                     </div>
 
-<<<<<<< HEAD
                         <label for="exampleMessage">Mensaje</label>
                         <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" name="mensaje" id="mensaje" required></textarea>
-=======
-                    <label for="exampleMessage">Mensaje</label>
-                    <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" name="mensaje" required></textarea>
->>>>>>> 26b2785ebb461ab3998108e54d50eb46dda70a93
 
                     <input class="btn--primary full-width" type="submit" value="Enviar">
 
@@ -163,105 +141,9 @@
     </section>
     <!-- fin s-content contacto -->
 
-    <!-- s-footer
-    ================================================== -->
-    <footer class="s-footer">
-
-        <div class="s-footer__main">
-            <div class="row">
-
-                <div class="col-two md-four mob-full s-footer__sitelinks">
-
-                    <h4>Enlaces</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li>
-                            <a href="inicio.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="biografia.html">Biografía</a>
-                        </li>
-                        <li>
-                            <a href="videos.html">Videos</a>
-                        </li>
-                        <li>
-                            <a href="musica.html">Música</a>
-                        </li>
-                        <li>
-                            <a href="educacion.html">Educación</a>
-                        </li>
-                        <li>
-                            <a href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- end s-footer__sitelinks -->
-
-                <div class="col-two md-four mob-full s-footer__social">
-
-                    <h4>Redes Sociales</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCQ7B7G3mIg_wXBe7bUC9CLA?view_as=subscriber">Youtube</a>
-                        </li>
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone=57##########&text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios%2C%20como%2C%20compositor.">WhatsApp</a>
-                        </li>
-                        <li>
-                            <a href="mailto:k100077k@hotmail.com">Correo Electrónico</a>
-                        </li>
-                    </ul>
-
-                    <!-- end header__social -->
-
-                </div>
-                <!-- end s-footer__social -->
-                <div class="col-five md-full end s-footer__subscribe">
-
-                    <h4>Contacto</h4>
-
-                    <div class="subscribe-form">
-                        <form class="group" novalidate="true">
-                            <input type="text" value="" name="MENSAJE" class="full-width" placeholder="Mensaje" required="">
-                            <input class="full-width" type="email" placeholder="ejemplo@gmail.com" name="email" required>
-                            <input type="submit" name="ENVIAR" value="Enviar">
-
-                            <label for="mc-email" class="subscribe-message"></label>
-
-                        </form>
-                    </div>
-
-                </div>
-                <!-- end s-footer__subscribe -->
-
-            </div>
-        </div>
-        <!-- end s-footer__main -->
-
-        <div class="s-footer__bottom">
-            <div class="row">
-                <div class="col-full">
-                    <div class="s-footer__copyright">
-                        <span>© Copyright
-                            <strong>
-                                <a href="mailto:articcompanyud@gmail.com">Artic Company S.A.S.</a>
-                            </strong>
-                        </span>
-                        <span>Todos los derechos reservados.</span>
-                    </div>
-
-                    <div class="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end s-footer__bottom -->
-
-    </footer>
-    <!-- end s-footer -->
+    <?php
+        include "./sections/footer.html";
+    ?>
 
 
     <!-- preloader
