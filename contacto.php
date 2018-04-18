@@ -41,7 +41,7 @@
             <div class="header__content row">
 
                 <div class="header__logo">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="index.php">
                         <span id="name">
                             <img src="images/logo-black3.png" alt="Homepage">
                         </span>
@@ -60,22 +60,22 @@
 
                     <ul class="header__nav">
                         <li class="current">
-                            <a href="index.html" title="">Inicio</a>
+                            <a href="index.php" title="">Inicio</a>
                         </li>
                         <li>
-                            <a href="biografia.html" title="">Biografía</a>
+                            <a href="biografia.php" title="">Biografía</a>
                         </li>
                         <li>
-                            <a href="videos.html" title="">Videos</a>
+                            <a href="videos.php" title="">Videos</a>
                         </li>
                         <li>
-                            <a href="musica.html" title="">Música</a>
+                            <a href="musica.php" title="">Música</a>
                         </li>
                         <li>
-                            <a href="educacion.html" title="">Educación</a>
+                            <a href="educacion.php" title="">Educación</a>
                         </li>
                         <li>
-                            <a style="color:rgb(145, 145, 145);" href="contacto.html" title="">Contacto</a>
+                            <a style="color:rgb(145, 145, 145);" href="contacto.php" title="">Contacto</a>
                         </li>
                     </ul>
                     <!-- fin header__nav -->
