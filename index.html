@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="js/imagehover/css/imagehover.min.css">
+    <link rel="stylesheet" href="css/prueba.css">
 
     <!-- script
     ================================================== -->
@@ -93,9 +94,6 @@
 
     <section class="s-pageheader s-pageheader--home">
 
-
-
-
         <div class="pageheader-content row">
             <div class="col-full">
 
@@ -103,7 +101,7 @@
 
                     <div class="featured__column featured__column--big">
                         <div class="entry">
-                            <iframe style="width: 100%;" height="100%" src="https://www.youtube.com/embed/IcrbM1l_BoI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe style="width: 100%;" height="100%" src="https://www.youtube.com/embed/bgxzIuviJqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             <!-- end entry__content -->
 
                         </div>
@@ -116,7 +114,7 @@
                             <img src="images/Camilo2Copia.jpg" class="img-responsive">
                             <figcaption>
                                 <h3>Productor Musical</h3>
-                                <p>Composición profesional de composiciones musicales especializadas y enfocadas para cine y televisión</p>
+                                <p>Producción profesional de música para cine, televisión y medios audiovisuales.</p>
                             </figcaption>
                             <a href="contacto.html"></a>
                         </figure>
@@ -135,21 +133,58 @@
     </section>
     <!-- end s-pageheader -->
 
+    <!-- slider video
+    ================================================== -->
+    <section class="s-content s-content--narrow s-content--no-padding-bottom">
+        <div class="s-content__header col-full">
+            <h2 class="s-content__header-title">
+                Videos
+            </h2>
+        </div>
+    </section>
+
+    <div id="page">
+        <section style="padding: 25px 0px 25px 0;">
+            <input type="radio" name="slider-select-element" id="element1" checked="checked" />
+            <input type="radio" name="slider-select-element" id="element2" />
+            <input type="radio" name="slider-select-element" id="element3" />
+
+            <div id="slider-container">
+                <div id="slider-box">
+                    <div class="slider-element">
+                        <article class="element-red">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bgxzIuviJqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-green">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Er0cgr2UbhY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-blue">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TOYg2HO3zNQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-arrows">
+                <label for="element1"></label>
+                <label for="element2"></label>
+                <label for="element3"></label>
+            </div>
+        </section>
+    </div>
+
     <!-- s-content video
     ================================================== -->
 
     <!-- Videos section -->
-
     <section class="s-content s-content--narrow s-content--no-padding-bottom">
-
         <!-- Video 1 -->
         <article class="row format-video">
 
-            <div class="s-content__header col-full">
-                <h2 class="s-content__header-title">
-                    Videos
-                </h2>
-            </div>
             <!-- end s-content__header -->
 
             <div class="s-content__media col-full">
@@ -367,25 +402,21 @@
                             <a href="https://api.whatsapp.com/send?phone=57##########&text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios%2C%20como%2C%20compositor.">WhatsApp</a>
                         </li>
                         <li>
-                            <a href="#0">Correo Electrónico</a>
+                            <a href="mailto:k100077k@hotmail.com">Correo Electrónico</a>
                         </li>
                     </ul>
 
                 </div>
                 <!-- fin s-footer__redes sociales -->
-
                 <div class="col-five md-full end s-footer__subscribe">
 
-                    <h4>Contactame</h4>
-
-                    <p>Si te ha gustado el Contenido, quieres conocer mas sobre música o acceder a composisiones profesionales, envia tu correo para contactar contigo. </p>
+                    <h4>Contacto</h4>
 
                     <div class="subscribe-form">
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Correo Electrònico" required="">
-
-                            <input type="submit" name="subscribe" value="Enviar">
+                        <form class="group" novalidate="true">
+                            <input type="text" value="" name="MENSAJE" class="full-width" placeholder="Mensaje" required="">
+                            <input class="full-width" type="email" placeholder="ejemplo@gmail.com" name="email" required>
+                            <input type="submit" name="ENVIAR" value="Enviar">
 
                             <label for="mc-email" class="subscribe-message"></label>
 
