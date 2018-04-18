@@ -135,13 +135,13 @@
 
     <!-- slider video
     ================================================== -->
-    <section class="s-content s-content--narrow s-content--no-padding-bottom">
-        <div class="s-content__header col-full">
+    <div style="background-color:#fff;padding-top: 1px;padding-bottom: 1px;text-align: center;">
+        
             <h2 class="s-content__header-title">
                 Videos
             </h2>
-        </div>
-    </section>
+        
+    </div>
 
     <div id="page">
         <section style="padding: 25px 0px 25px 0;">
