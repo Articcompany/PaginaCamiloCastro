@@ -136,11 +136,9 @@
     <!-- slider video
     ================================================== -->
     <div style="background-color:#fff;padding-top: 1px;padding-bottom: 1px;text-align: center;">
-        
             <h2 class="s-content__header-title">
                 Videos
             </h2>
-        
     </div>
 
     <div id="page">
@@ -360,17 +358,9 @@
 
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+    <?php
+        include "./sections/preloader.html";
+    ?>
     <!-- Fin s-footer -->
 
     <!-- Java Script

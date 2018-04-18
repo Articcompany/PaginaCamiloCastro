@@ -36,59 +36,9 @@
 
     <!-- pageheader Cabecera
     ================================================== -->
-    <header id="header2">
-        <div class="header" style="background-color: white;">
-
-            <div class="header__content row">
-
-                <!-- header__logo -->
-                <div class="header__logo">
-                    <a class="logo" href="index.php">
-                        <span id="name">
-                            <img src="images/logo-black3.png" alt="Camilo Castro Logo">
-                        </span>
-                    </a>
-                </div>
-                <!-- Fin header__logo -->
-
-
-                <a class="header__toggle-menu" href="#0" title="Menu">
-                    <span>Menú</span>
-                </a>
-
-                <nav class="header__nav-wrap">
-
-                    <h2 class="header__nav-heading h6">Menù de Navegaciòn</h2>
-
-                    <ul class="header__nav">
-                        <li class="current">
-                            <a href="index.php" title="">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="biografia.php" title="">Biografía</a>
-                        </li>
-                        <li>
-                            <a href="videos.php" title="">Videos</a>
-                        </li>
-                        <li>
-                            <a href="musica.php" title="">Música</a>
-                        </li>
-                        <li>
-                            <a style="color:rgb(145, 145, 145);" href="eduacion.php" title="">Educación</a>
-                        </li>
-                        <li>
-                            <a href="contacto.php" title="">Contacto</a>
-                        </li>
-                    </ul>
-                    <!-- fin header__nav -->
-                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Cerrar</a>
-                </nav>
-                <!-- fin header__nav-wrap -->
-
-            </div>
-            <!-- header-content -->
-        </div>
-    </header>
+    <?php
+        include "./sections/header.html";
+    ?>
     <!-- header -->
     <!-- end s-pageheader -->
 
@@ -226,17 +176,9 @@
 
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+    <?php
+        include "./sections/preloader.html";
+    ?>
 
 
     <!-- Java Script
