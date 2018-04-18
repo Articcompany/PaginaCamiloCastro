@@ -127,12 +127,12 @@
                     <form action="sections/enviarformulario.php" method="post" id="contacto">
                         <div>
                             <label for="sampleInput">Correo Electrónico</label>
-                            <input class="full-width" type="email" placeholder="ejemplo@gmail.com" id="email" required>
+                            <input class="full-width" name="email" ype="email" placeholder="ejemplo@gmail.com" id="email" required>
                         </div>
                         <div>
                             <label for="sampleRecipientInput">En que estas interesado</label>
                             <div class="cl-custom-select">
-                                <select class="full-width" id="opcion" required>
+                                <select class="full-width" name="opcion" id="opcion" required>
                                             <option value="Option 1">Música para cine y televisión</option>
                                             <option value="Option 2">Composición musical profesional</option>
                                             <option value="Option 3">Clases personalizadas</option>
@@ -141,7 +141,7 @@
                         </div>
 
                         <label for="exampleMessage">Mensaje</label>
-                        <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" id="mensaje" required></textarea>
+                        <textarea class="full-width" placeholder="Escribe acerca de tu ínteres" name="mensaje" id="mensaje" required></textarea>
 
                         <input class="btn--primary full-width" type="submit" value="Enviar">
 
