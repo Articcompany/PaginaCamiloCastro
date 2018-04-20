@@ -116,7 +116,7 @@
                                 <h3>Productor Musical</h3>
                                 <p>Producción profesional de música para cine, televisión y medios audiovisuales.</p>
                             </figcaption>
-                            <a href="contacto.html"></a>
+                            <a href="contacto.php"></a>
                         </figure>
 
                     </div>
