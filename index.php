@@ -108,6 +108,9 @@
                         <!-- end entry -->
                     </div>
                     <!-- end featured__big -->
+                    <div style="text-align:center;">
+                        <h3 style="color:white;padding-top:20px;">Producción Musical</h3>
+                    </div>
 
                     <div class="featured__column featured__column--small aaa">
                         <figure class="imghvr-fold-up">

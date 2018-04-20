@@ -66,7 +66,7 @@
                     <form action="sections/enviarformulario.php" method="post" id="contacto">
                         <div>
                             <label for="sampleInput">Correo Electrónico</label>
-                            <input class="full-width" name="email" ype="email" placeholder="ejemplo@gmail.com" id="email" required>
+                            <input class="full-width" name="email" type="email" placeholder="ejemplo@gmail.com" id="email" required>
                         </div>
                         <div>
                             <label for="sampleRecipientInput">En que estas interesado</label>
