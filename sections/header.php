@@ -1,7 +1,7 @@
     <!-- pageheader
     ================================================== -->
     <header id="header2">
-        <nav class="header" style="background-color: white;">
+        <nav class="header" style="background-color: rgb(255, 255, 255);">
 
             <div class="header__content row">
 

@@ -101,14 +101,14 @@
 
                     <div class="featured__column featured__column--big">
                         <div class="entry">
-                            <iframe style="width: 100%;" height="100%" src="https://www.youtube.com/embed/bgxzIuviJqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width= "100%" height="100%" src="https://www.youtube.com/embed/bgxzIuviJqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             <!-- end entry__content -->
 
                         </div>
                         <!-- end entry -->
                     </div>
                     <!-- end featured__big -->
-                    <div style="text-align:center;">
+                    <div class="titulo">
                         <h3 style="color:white;padding-top:20px;">Producción Musical</h3>
                     </div>
 
@@ -138,14 +138,14 @@
 
     <!-- slider video
     ================================================== -->
-    <div style="background-color:#fff;padding-top: 1px;padding-bottom: 1px;text-align: center;">
+    <div class="titulo-videos">
             <h2 class="s-content__header-title">
                 Videos
             </h2>
     </div>
 
     <div id="page">
-        <section style="padding: 25px 0px 25px 0;">
+        <section class="slider-videos">
             <input type="radio" name="slider-select-element" id="element1" checked="checked" />
             <input type="radio" name="slider-select-element" id="element2" />
             <input type="radio" name="slider-select-element" id="element3" />

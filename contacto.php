@@ -47,7 +47,7 @@
         <div class="row narrow section-intro add-bottom text-center">
 
             <div class="col-twelve tab-full">
-                <h1>Contacto</h1>
+                <h1 class="titulo">Contacto</h1>
             </div>
 
         </div>

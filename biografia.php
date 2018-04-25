@@ -43,18 +43,13 @@
     <!-- s-content biografía
     ================================================== -->
     <section class="s-content">
-
         <div class="row">
-
             <div class="col-nine tab-full">
-
                 <h3>Biografía</h3>
-
                 <p>
                     <a href="#"><img width="300" height="400" class="pull-left" alt="sample-image" src="images/perfil.png"></a>
                     Compositor, guitarrista y productor musical originario de Bogotá Colombia, inició sus estudios de manera particular a la edad de 8 años, estudio el bachillerato musical en el Colegio Integral Creativo, y a la edad de 16 años entró a la Escuela de Música
                     Federico Chopin, realizó estudios de guitarra en la Pontificia Universidad Javeriana y en la Universidad INCCA de Colombia. </p>
-
                 <p>
                     Desde Mayo de 1999 radica a México, año en el que asistió a un taller de música electroacústica, en el Centro Multimedia del Centro Nacional de las Artes, donde tuvo su primer acercamiento a los medios electrónicos. Realizó estudios de guitarra eléctrica
                     e ingeniería de audio en la Escuela de música G. Martell entre 2000 y 2002. En el año 2007 ingresa a la licenciatura en composición en la Escuela Nacional de Música de la U.N.A.M. Allí asistió a diferentes talleres en el Laboratorio
@@ -115,5 +110,4 @@
     <script src="js/main.js"></script>
 
 </body>
-
 </html>

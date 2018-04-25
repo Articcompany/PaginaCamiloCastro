@@ -36,7 +36,7 @@
     <!-- s-content -->
     <section class="s-content">
         <div class="row">
-            <h1 style="text-align: center;">Musica en soundcloud</h1>
+            <h1 class="titulo">Musica en soundcloud</h1>
             <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/44185013&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
     </section>
